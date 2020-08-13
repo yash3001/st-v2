@@ -118,7 +118,7 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
+	"#000000", /* 258 -> bg */  // Originally it was #282828 (default gruvbox background)
 	"#ebdbb2", /* 259 -> fg */
 };
 

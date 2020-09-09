@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "MesloLGS NF:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = {"MesloLGS NF:pixelsize=16:antialias=true:autohint=true"};
+static char *font = "MesloLGS NF:style=Regular:pixelsize=18:antialias=true:autohint=true";
+static char *font2[] = {"MesloLGS NF:style=Regular:pixelsize=18:antialias=true:autohint=true"};
 
 static int borderpx = 2;
 
@@ -132,7 +132,7 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#ffffff", /* 256 -> cursor */ // Originally it was #add8e6 
 	"#555555", /* 257 -> rev cursor*/
-	"#000000", /* 258 -> bg */  // Originally it was #282828 (default gruvbox background)
+	"#0c0c0c", /* 258 -> bg */  // Originally it was #282828 (default gruvbox background)
 	"#ebdbb2", /* 259 -> fg */
 };
 
